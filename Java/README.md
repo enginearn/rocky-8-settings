@@ -120,7 +120,7 @@ which java
 /usr/bin/java
 ```
 
-</detals>
+</details>
 
 <details>
 <summary>jshell</summary>
