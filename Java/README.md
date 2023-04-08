@@ -2,6 +2,7 @@
 
 <details>
 <summary>java -version</summary>
+
 ``` bash
 java -version
 openjdk version "1.8.0_362"
@@ -143,4 +144,4 @@ $3 ==> "HELLO WORLD!"
 # Ctrl + D
 ```
 
-<details>
+</details>
