@@ -7,7 +7,7 @@
 ### bash
 
 <details>
-<summary>make install<summary>
+<summary>make install</summary>
 
 ``` bash
 wget https://ftp.jaist.ac.jp/pub/GNU/bash/bash-5.2.15.tar.gz
