@@ -1,7 +1,7 @@
 # PHP
 
 <details>
-<summary></summary>
+<summary>check current php version</summary>
 
 ``` bash
 sudo dnf info php
