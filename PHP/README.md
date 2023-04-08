@@ -298,7 +298,7 @@ Zend Engine v4.2.4, Copyright (c) Zend Technologies
 
 ```
 
-</details>How to Install PHP 8.2 in Rocky Linux 8
+</details>
 
 ---
 
