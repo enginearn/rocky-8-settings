@@ -7,7 +7,7 @@
 ### tmux
 
 <details>
-<summary>wget</summary>
+<summary>installations</summary>
 
 ``` bash
 wget https://github.com/tmux/tmux/releases/download/3.3a/tmux-3.3a.tar.gz
