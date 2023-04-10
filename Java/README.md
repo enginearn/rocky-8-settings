@@ -93,7 +93,7 @@ java-latest-openjdk-static-libs-slowdebug.x86_64 : OpenJDK 19 libraries for
 <summary>wget</summary>
 
 ``` bash
-wget https://www.oracle.com/jp/java/technologies/downloads/
+wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.rpm
 ```
 
 </details>
