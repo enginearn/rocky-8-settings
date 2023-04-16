@@ -145,3 +145,41 @@ $3 ==> "HELLO WORLD!"
 ```
 
 </details>
+
+## Maven
+
+``` bash
+wget https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.tar.gz
+sudo tar xzvf apache-maven-3.9.1-bin.tar.gz -C /opt
+sudo ln -s /opt/apache-maven-3.9.1 /opt/maven
+sudo vim /etc/profile.d/maven.sh
+```
+
+`/etc/profile.d/maven.sh`
+
+``` maven.sh
+export JAVA_HOME=/usr/java/jdk-20
+export M2_HOME=/opt/maven
+export MAVEN_HOME=/opt/maven
+export PATH=${M2_HOME}/bin:${PATH}
+```
+
+``` bash
+chmod +x /etc/profile.d/maven.sh
+source /etc/profile.d/maven.sh
+```
+
+``` bash
+mvn -v
+Apache Maven 3.9.1 (2e178502fcdbffc201671fb2537d0cb4b4cc58f8)
+Maven home: /opt/maven
+Java version: 20, vendor: Oracle Corporation, runtime: /usr/lib/jvm/jdk-20-oracle-x64
+Default locale: ja_JP, platform encoding: UTF-8
+OS name: "linux", version: "4.18.0-425.19.2.el8_7.x86_64", arch: "amd64", family: "unix"
+```
+
+---
+
+## Ref
+
+[How to Install Apache Maven on Rocky Linux / CentOS 8](https://linuxways.net/centos/how-to-install-apache-maven-on-rocky-linux-centos-8/)
